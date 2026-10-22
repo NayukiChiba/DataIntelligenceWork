@@ -41,16 +41,16 @@ torchaudio = { index = "pytorch-cu128-original" }
 
 # --------------- 项目信息配置 ---------------
 [project]
-name = "templates" # 这里需要设置为你的项目名称，通常与包名相同
+name = "data-intelligence-work"
 version = "0.1.0"
-description = "项目模板" # 这里需要设置为你的项目描述，简要说明项目的功能和用途
+description = "「从数据到智能」课程结课实践项目：覆盖数据获取、质量分析、数据处理与样本构造、数据分析、模型设计与评估的完整流程"
 requires-python = ">=3.12,<3.13"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
     { name = "NayukiMeko" },
 ]
-keywords = [] # 这里可以添加一些关键词，帮助用户搜索到你的项目 
+keywords = ["data-intelligence", "data-analysis", "machine-learning", "course-project"]
 
 # 运行时依赖（留空，按项目需要添加）
 dependencies = []
